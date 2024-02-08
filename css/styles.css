@@ -1,0 +1,14 @@
+h1 {
+    color: teal;
+}
+
+blockquote {
+    color: rgb(153, 58, 121);
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(140, 224, 61);
+}
+
