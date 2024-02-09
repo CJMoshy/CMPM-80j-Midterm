@@ -12,3 +12,12 @@ blockquote {
     background-color: rgb(140, 224, 61);
 }
 
+nav li:hover {
+    height: 50px; 
+}
+
+nav a:hover{
+    color: rgb(46, 186, 204);
+}
+
+
