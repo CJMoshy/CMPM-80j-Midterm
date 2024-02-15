@@ -20,4 +20,13 @@ nav a:hover{
     color: rgb(46, 186, 204);
 }
 
-
+.container p1{
+    display: flex;
+    justify-content: left;
+}
+  
+img{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;     
+}
