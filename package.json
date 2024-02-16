@@ -2,9 +2,9 @@
   "name": "typescript-practice",
   "version": "1.0.0",
   "description": "typescript practice",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "CJMoshy",
@@ -12,5 +12,9 @@
   "dependencies": {
     "@picocss/pico": "^1.5.11",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4"
   }
 }
